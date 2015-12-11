@@ -117,9 +117,7 @@ function draw(){
         
       if(state == 0){
            enter(); 
-    
-              
-         } 
+    } 
      
      if(state==1){
            hazardShow(); 
@@ -493,8 +491,9 @@ function draw(){
   }
      
     function enter(){
-      mouseMoved(); 
       image(openingscreen, 0, 0, 1200, 700); 
+
+      mouseMoved(); 
       if (dist(width*.5, height*.25, mouseX, mouseY)<=150){
         noStroke(); 
         fill(199, 163,21, 80); 
