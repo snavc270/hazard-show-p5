@@ -503,7 +503,8 @@ function draw(){
      
     }
    
-     function hazardShow(){ 
+     function hazardShow(){
+ 
        
         if(dist(width*.75, height*.75, mouseX, mouseY)<=200){
           cursor(crosshair, 32, 32); 
@@ -529,7 +530,7 @@ function draw(){
        rect(75, height*.7, width*.4, height*.3); 
        
        fill(255); 
-       textFont(f); 
+       
       
       
       // int x=100; 
