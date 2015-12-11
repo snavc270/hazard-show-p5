@@ -86,7 +86,7 @@ function setup() {
        fourchandisagree= loadImage("data/4chandisagree.png");
        facebook= loadImage("data/facebook.png"); 
        hand= loadImage("data/hand.png"); 
-       home= loadImage("home.png"); 
+       home= loadImage("data/home.png"); 
        newyorkreport= loadImage("data/newyorkreport.png"); 
        oregonreport= loadImage("data/oregonreport.png"); 
        southcarolinareport= loadImage("data/southcarolina.png"); 
