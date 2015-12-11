@@ -503,12 +503,7 @@ function draw(){
      
     }
    
-     function hazardShow(){
-      pushMatrix(); 
-       translate(translateX, translateY); 
-       scale(scaleFactor); 
-       image(show1, -65, -50, 1300, 750);
-       popMatrix(); 
+     function hazardShow(){ 
        
         if(dist(width*.75, height*.75, mouseX, mouseY)<=200){
           cursor(crosshair, 32, 32); 
