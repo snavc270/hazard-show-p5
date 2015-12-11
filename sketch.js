@@ -1428,7 +1428,7 @@ function draw(){
       
       
    
-    function mouseIsPressed(){
+    function mousePressed(){
      if(state>1){
      if(dist(450, height*.95, mouseX, mouseY)<=40){
             state= 0;   
