@@ -493,12 +493,13 @@ function draw(){
     function enter(){
       image(openingscreen, 0, 0, 1200, 700); 
 
-      mouseMoved(); 
+      function mouseMoved(){ 
       if (dist(width*.5, height*.25, mouseX, mouseY)<=150){
         noStroke(); 
         fill(199, 163,21, 80); 
         rect(width*.5-230, 80, 450, 150); 
       }
+    }
      
     }
    
